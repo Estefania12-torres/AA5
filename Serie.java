@@ -31,3 +31,17 @@ public void calcularFibonacciConScanner(){
     System.out.println("El valor de Fibonacci en la posicion"+ posicion+"es:"+ fibonacci);
     scanner.close();
 }
+  public Map<Integer, Long> getValorList() {
+            return valorList;
+        }
+
+        public void setValorList(Map<Integer, Long> valorList) {
+            this.valorList = valorList;
+        }
+
+        @Override
+        public String toString() {
+            return "Serie{valorList=" + valorList + '}';
+        }
+    }
+  
