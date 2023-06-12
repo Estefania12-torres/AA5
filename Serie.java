@@ -23,3 +23,11 @@ public long getFibonacci(int posicion) {
                 return resultado;
             }
         }
+public void calcularFibonacciConScanner(){
+    Scanner scanner= new Scanner(System.in);
+    System.out.print("Ingrese la posicion de Fibonacci:");
+    int posicion=scanner.nextInt();
+    long fibonacci=getFibonacci(posicion);
+    System.out.println("El valor de Fibonacci en la posicion"+ posicion+"es:"+ fibonacci);
+    scanner.close();
+}
