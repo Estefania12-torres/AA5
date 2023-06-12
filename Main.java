@@ -1,17 +1,26 @@
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
+import java.util.Map;
+import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
-        // Press Alt+Intro with your caret at the highlighted text to see how
-        // IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
-
-        // Press Mayús+F10 or click the green arrow button in the gutter to run the code.
-        for (int i = 1; i <= 5; i++) {
-
-            // Press Mayús+F9 to start debugging your code. We have set one breakpoint
-            // for you, but you can always add more by pressing Ctrl+F8.
-            System.out.println("i = " + i);
-        }
+        Serie serie = new Serie();
+        
+        // Ejemplo: Obtener el valor de Fibonacci en la posición 50
+        int posicion = 50;
+        long fibonacci = serie.getFibonacci(posicion);
+        
+        // Imprimir directamente el HashMap
+        Map<Integer, Long> valorList = serie.getValorList();
+        System.out.println(valorList);
+        
+        // Utilizar el Scanner para obtener la posición de Fibonacci desde el usuario
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Ingrese la posición de Fibonacci: ");
+        posicion = scanner.nextInt();
+        fibonacci = serie.getFibonacci(posicion);
+        System.out.println("El valor de Fibonacci en la posición " + posicion + " es: " + fibonacci);
+        scanner.close();   
+      
     }
 }
