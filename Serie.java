@@ -24,9 +24,9 @@ public long getFibonacci(int posicion) {
                 return resultado;
             }
         }
-public void calcularFibonacciConScanner(){
-    Scanner scanner= new Scanner(System.in);
-    System.out.print("Ingrese la posicion de Fibonacci:");
+public void calcularFibonacciConScanner(){  // Esto define un método público llamado calcularFibonacciConScanner que no devuelve ningún valor (void).
+    Scanner scanner= new Scanner(System.in); //Crea una instancia de la clase Scanner llamada scanner y la inicializa para leer la entrada del usuario desde la consola (System.in).
+    System.out.print("Ingrese la posicion de Fibonacci:"); //Imprime el mensaje "Ingrese la posición de Fibonacci:" en la consola sin una nueva línea.
     int posicion=scanner.nextInt();
     long fibonacci=getFibonacci(posicion);
     System.out.println("El valor de Fibonacci en la posicion"+ posicion+"es:"+ fibonacci);
