@@ -5,6 +5,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
+//Creación de la clase Serie 
 public class Serie {
   private Map<Integer, Long> valorList;
   
