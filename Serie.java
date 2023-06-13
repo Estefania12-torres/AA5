@@ -8,7 +8,7 @@ import java.util.Scanner;
 //Creación de la clase Serie 
 public class Serie {
   private Map<Integer, Long> valorList; //Creación de un atributo valorList como privado 
-  
+                                        //Este nos indica que es un mapa que mapea enteros a valores long
   public Serie() {
      this.valorList = new HashMap<>();
 }
