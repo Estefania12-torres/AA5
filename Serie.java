@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 
 public class Serie {
+  
   private Map<Integer, Long> valorList;
   
   public Serie() {
