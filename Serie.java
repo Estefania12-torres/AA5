@@ -17,6 +17,7 @@ public class Serie {
 }
   
  //Creación del metodo getFibonacci
+ //Calcula y devuelve el valor de Fibonacci en la posicion especifica, utilizando recursión y un mapa para almacenar los valores ya calculados
 public long getFibonacci(int posicion) {
             if (posicion == 0 || posicion == 1) {
                 return 1;
