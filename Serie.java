@@ -27,10 +27,10 @@ public long getFibonacci(int posicion) {
 public void calcularFibonacciConScanner(){  // Esto define un método público llamado calcularFibonacciConScanner que no devuelve ningún valor (void).
     Scanner scanner= new Scanner(System.in); //Crea una instancia de la clase Scanner llamada scanner y la inicializa para leer la entrada del usuario desde la consola (System.in).
     System.out.print("Ingrese la posicion de Fibonacci:"); //Imprime el mensaje "Ingrese la posición de Fibonacci:" en la consola sin una nueva línea.
-    int posicion=scanner.nextInt();
-    long fibonacci=getFibonacci(posicion);
-    System.out.println("El valor de Fibonacci en la posicion"+ posicion+"es:"+ fibonacci);
-    scanner.close();
+    int posicion=scanner.nextInt(); //Lee un número entero ingresado por el usuario utilizando el objeto scanner y lo asigna a la variable posicion
+    long fibonacci=getFibonacci(posicion); //Llama a un método llamado getFibonacci pasando la variable posicion como argumento y asigna el resultado a la variable fibonacci
+    System.out.println("El valor de Fibonacci en la posicion"+ posicion+"es:"+ fibonacci); //: Imprime en la consola el mensaje. La función println agrega una nueva línea al final.
+    scanner.close(); //Cierra el objeto scanner para liberar los recursos asociados a la entrada del usuario.
 }
   public Map<Integer, Long> getValorList() {
             return valorList;
