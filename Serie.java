@@ -50,10 +50,11 @@ public void calcularFibonacciConScanner(){
             return valorList;
         }
 
-        public void setValorList(Map<Integer, Long> valorList) {
+  public void setValorList(Map<Integer, Long> valorList) {
             this.valorList = valorList;
         }
 
+ //Presentar cadena de texto del objeto Serie 
         @Override
         public String toString() {
             return "Serie{valorList=" + valorList + '}';
