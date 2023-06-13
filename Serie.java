@@ -32,17 +32,17 @@ public void calcularFibonacciConScanner(){  // Esto define un método público l
     System.out.println("El valor de Fibonacci en la posicion"+ posicion+"es:"+ fibonacci); //: Imprime en la consola el mensaje. La función println agrega una nueva línea al final.
     scanner.close(); //Cierra el objeto scanner para liberar los recursos asociados a la entrada del usuario.
 }
-  public Map<Integer, Long> getValorList() {
-            return valorList;
+  public Map<Integer, Long> getValorList() { // es un método de acceso (getter) para obtener el campo valorList. 
+            return valorList; //Devuelve un Map<Integer, Long>, que es el tipo de dato especificado en la declaración de la clase.
         }
   
-        public void setValorList(Map<Integer, Long> valorList) {
-            this.valorList = valorList;
+        public void setValorList(Map<Integer, Long> valorList) { //es un método de modificación (setter) que establece el campo valorList con el valor pasado como argumento.
+            this.valorList = valorList; // El argumento es un Map<Integer, Long>. El uso de this.valorList se refiere al campo de la clase, mientras que valorList sin this se refiere al parámetro del método.
         }
 
         @Override
-        public String toString() {
-            return "Serie{valorList=" + valorList + '}';
+        public String toString() { // es una anulación del método toString() de la clase base Object
+            return "Serie{valorList=" + valorList + '}';  //Devuelve una representación en forma de cadena de la instancia de la clase Serie
         }
     }
   
