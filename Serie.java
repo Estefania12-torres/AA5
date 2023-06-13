@@ -43,6 +43,9 @@ public void calcularFibonacciConScanner(){
     System.out.println("El valor de Fibonacci en la posicion"+ posicion+"es:"+ fibonacci);
     scanner.close();
 }
+  
+  //get and set
+  //Estos métodos permiten acceder y modificar el atributo valorList de la clase
   public Map<Integer, Long> getValorList() {
             return valorList;
         }
