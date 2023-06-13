@@ -11,6 +11,7 @@ public class Serie {
                                         //Este nos indica que es un mapa que mapea enteros a valores long
   
   //Creacion del constructor Serie
+  //Inicializar el valorList como una nueva instancia de Hashmap
   public Serie() {
      this.valorList = new HashMap<>();
 }
