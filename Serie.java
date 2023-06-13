@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 //Creación de la clase Serie 
 public class Serie {
-  private Map<Integer, Long> valorList;
+  private Map<Integer, Long> valorList; //Creación de un atributo valorList como privado 
   
   public Serie() {
      this.valorList = new HashMap<>();
