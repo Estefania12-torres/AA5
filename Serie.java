@@ -1,5 +1,6 @@
 //Implementacion del para la utilizacion del HashMap
 //Implementacion del import para la utilizacion del Map
+//Implementacion del import para la utilizacion del Scanner 
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
