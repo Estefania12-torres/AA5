@@ -15,6 +15,8 @@ public class Serie {
   public Serie() {
      this.valorList = new HashMap<>();
 }
+  
+ //Creación del metodo getFibonacci
 public long getFibonacci(int posicion) {
             if (posicion == 0 || posicion == 1) {
                 return 1;
