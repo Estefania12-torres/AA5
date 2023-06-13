@@ -32,6 +32,8 @@ public long getFibonacci(int posicion) {
                 return resultado;
             }
         }
+  
+//Creación del metodo calcular Fibonacci con Scanner 
 public void calcularFibonacciConScanner(){
     Scanner scanner= new Scanner(System.in);
     System.out.print("Ingrese la posicion de Fibonacci:");
